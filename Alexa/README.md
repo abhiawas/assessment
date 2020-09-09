@@ -22,6 +22,7 @@ Go to Alexa Developer console and Create New Skill
 
 7) Build model and play with Alexa
 
+![Alexa-Testing](Alexa_testing.gif)
 
 
 
