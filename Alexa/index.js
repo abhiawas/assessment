@@ -119,8 +119,8 @@ exports.handler = Alexa.SkillBuilders.custom()
                          
 function httpGet() {
   return new Promise(((resolve, reject) => {
-        var username = "13c212b6353a776a5a43d0ace5b0b7a6"; 
-        var password = "c7c95ff577dcd5f209ca29925cd23048";
+        var username = "Replace_UserName"; 
+        var password = "Replace_Password";
         var authenticationHeader = "Basic " + new Buffer(username + ":" + password).toString("base64");
         request(   
                 {
@@ -136,8 +136,8 @@ function httpGet() {
 
 function postData(title){
     return new Promise(((resolve, reject) => {
-        var username = "13c212b6353a776a5a43d0ace5b0b7a6"; 
-        var password = "c7c95ff577dcd5f209ca29925cd23048";
+        var username = "Replace_UserName"; 
+        var password = "Replace_Password";
         var authenticationHeader = "Basic " + new Buffer(username + ":" + password).toString("base64");
         var options = {
             method: 'POST',
