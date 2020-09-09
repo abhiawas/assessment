@@ -6,10 +6,11 @@ const csv = require('csvtojson')
 const { Parser } = require('json2csv');
 const fs = require('fs');
 const fileUpload = require('express-fileupload');
-const url = 'https://13c212b6353a776a5a43d0ace5b0b7a6:c7c95ff577dcd5f209ca29925cd23048@api.shoplightspeed.com/en/products.json?fields=id,fulltitle,description,content,createdAt&limit=150';
-const client_id = 'c028b73b20e896d9dc48fb3649a6536758872df0bac9971d0ee04e4b68e93064';
-const client_secret = '9840b38008b1f9d6da432782457b3bb0114569dee6e91c98b9142afcb47bd90b';
-const refresh_token = 'cb8520fc6fa0f83e706ef3818e825ff16da0c899';
+const url = 'Replace_ecom_url';
+const client_id = 'Replace_Client_ID';
+const client_secret = 'Replace_Client_Secret';
+const refresh_token = 'Replace_refresh_token';
+const retail_api_url = 'Replace_retail_api_url'
 const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
@@ -187,7 +188,7 @@ function getData(token, count){
 
         for( i=0; i<count; i=i+100){
             var options = {
-                uri: 'https://api.lightspeedapp.com/API/Account/229803/Item.json?orderby=createTime&orderby_desc=1&load_relations=["Note"]&offset='+i,
+                uri: retail_api_url+i,
                 json: true,
                 headers:{
                     "Authorization" : "Bearer "+token.access_token+""
