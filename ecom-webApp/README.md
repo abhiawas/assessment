@@ -4,7 +4,7 @@ This application help users to add their products by importing csv and json file
 
 https://ecom-assessment.herokuapp.com/
 
-## Pre_requisites
+## Pre-requisites
 
 Node js 
 
