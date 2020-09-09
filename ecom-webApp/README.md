@@ -16,4 +16,6 @@ Node js
 
 Application will start on your http://localhost:3000
 
+![](Ecom-Assessment.gif)
+
 
