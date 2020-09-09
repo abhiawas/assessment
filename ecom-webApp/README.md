@@ -1,5 +1,7 @@
 # Ecom-Assessment
 
+This application help users to add their products by importing csv and json file and create products into their lightspeed ecommerce store 
+
 https://ecom-assessment.herokuapp.com/
 
 ## Pre_requisites
