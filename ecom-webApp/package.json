@@ -1,0 +1,22 @@
+{
+  "name": "lightspeed",
+  "version": "1.0.0",
+  "description": "This project was created for lightSpeed assessment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Awasthi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "csvtojson": "^2.0.10",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "json2csv": "^5.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
